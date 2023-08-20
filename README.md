@@ -1,8 +1,7 @@
 # FreshFoodWebCShard
 # Khách hàng
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/2f470452-0f64-4f48-9465-1d65deed8b33)
 Trang chủ
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/a3515fb4-1f11-4d68-a75a-a742b916d1bf)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/e5b57b0a-624e-4ccc-a9d1-2b1f399c8876)
 Trang sản phẩm
 ![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/9aab523d-0129-45cd-850d-d3b65d9f4910)
 Trang tin tức
