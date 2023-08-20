@@ -3,47 +3,48 @@
 Trang chủ
 ![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/e5b57b0a-624e-4ccc-a9d1-2b1f399c8876)
 Trang sản phẩm
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/9aab523d-0129-45cd-850d-d3b65d9f4910)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/31482238-1d1c-4f85-bd16-29b78e67ddbb)
 Trang tin tức
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/e919ab63-2886-4f53-9f6a-c1b6ee2eab2a)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/eb87a5ed-af7e-49fc-b90d-945921a94507)
 Chức năng tìm kiếm
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/1f0c5710-fad2-41aa-8a5b-1925f7263863)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/072740e7-f536-40c1-9699-7b35c7150d22)
 Trang thông tin sản phẩm
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/9b579458-60a1-4980-95d5-556ce5a02144)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/f7e5e513-e8e5-4a48-b5c5-997d24e9f3fc)
 Trang giỏ hàng
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/8dd0eaa1-8cd1-46cb-bbb7-c54053365537)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/64f40208-1843-4aed-86a7-cb395eefe973)
 Trang thanh toán
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/1e220b29-8cea-45cc-b789-ba24a9c09d1f)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/0b761667-74eb-45a6-a405-a55aa2d4b48a)
 Trang chi tiết đơn hàng
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/c0175feb-3a18-4e8b-95a9-b0c14451cb44)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/767f4786-ee16-4be9-92fe-6d05861288ee)
 Trang thông tin cá nhân
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/d62a5772-1438-4e2e-a09d-8a5b144a4dd9)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/7e97eeca-1acb-40de-ac46-d18839d9c6ba)
 Trang danh sách đơn hàng
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/d9147806-717c-403b-bd9f-f58658b0860e)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/ff4d3bb0-492f-43b9-894b-a3fceee07b99)
 # Quản trị viên
 Trang dashboard
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/d8daeff7-9539-470b-b55b-d333bcb30d73)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/922bcd2e-b994-455c-9628-b83482ddcc72)
 Trang danh sách đơn hàng
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/f5a0e7c7-49d9-460d-b146-4254829201d5)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/60d98205-64d5-4723-8efd-6478c4d28cc2)
 Trang chi tiết đơn hàng
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/9872c540-0a23-44f3-85dd-7aefcbb4751d)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/e68bc694-10be-4cf5-ac37-98c4aa42be7d)
 Trang danh sách shipper
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/013c8926-2110-4b6d-afe6-6c1ee4a3c8e8)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/ed099686-5eff-4932-98a1-ab8e495fa8e4)
 Trang danh sách sản phẩm
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/f4f9e75e-93e0-48de-b67b-f28639adbf48)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/7b2af3ca-e53d-4a41-865f-1e86a69b029a)
 Trang thông tin sản phẩm, thêm mới sản phẩm
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/3ea43719-1bc5-4e0a-83b6-bc0c7ae1059f)
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/0c1f963d-9a32-41dd-b535-85b35fec14d3)
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/17991b0d-3978-4962-a3da-1a40917c47a3)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/161f95a7-c940-4240-a124-b4ac253ff1d4)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/6b4ffaa4-b060-4e3c-bbae-8d8848df2991)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/f1770e0a-f3ea-403b-a9b1-d8e91cd3e5ba)
 Trang danh sách danh mục
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/2aca2181-75f5-4c2b-af7e-e81219915832)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/270acedf-c43a-427c-88d4-0076c10c76be)
 Trang quản lý khách hàng
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/f4ce3984-77b3-4baf-9ab7-421c991e529e)
-Trang tin tức
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/463deffb-ff75-43df-8cfc-97e8a677a453)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/ff6851ad-93b6-4ab0-ab01-0f622309a48f)
+Trang quản lý tin tức
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/00419e13-c0aa-49d0-9ad6-fe576173e3a2)
 Trang chỉnh sửa tin tức và thêm mới tin tức
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/c3de1a61-2ed4-40eb-9e79-ed51919275a6)
-![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/ce4e675e-b7e6-4584-8c10-74503e4f0541)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/65f639b0-c113-49ea-8e70-41a661ece192)
+![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/3f986d6d-f5f1-487f-86d2-530cfed2737d)
+
 
 
 
