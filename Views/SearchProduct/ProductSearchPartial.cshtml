@@ -1,0 +1,53 @@
+﻿@model List<Product>
+@if(Model != null) {
+    foreach(var item in Model) {
+        string url = $"/san-pham/{item.Alias}-{item.ProductId}";
+        <div class="col-md-6 col-lg-3">
+            <div class="product">
+                <a href="@url" class="img-prod"
+                ><img
+                    class="img-fluid"
+                    src="images/products/@item.Thumb"
+                    alt="Colorlib Template"
+                />
+                <div class="overlay"></div>
+                </a>
+                <div class="text py-3 pb-4 px-3 text-center">
+                <h3><a href="@url">@item.ProductName</a></h3>
+                <div class="d-flex">
+                    <div class="pricing">
+                    <p class="price"><span>@item.Price.ToString("#,##0")đ</span></p>
+                    </div>
+                </div>
+                <div class="bottom-area d-flex px-3">
+                    <div class="m-auto d-flex">
+                    <a
+                        href="@url"
+                        class="add-to-cart d-flex justify-content-center align-items-center text-center"
+                    >
+                        <span><i class="ion-ios-menu"></i></span>
+                    </a>
+                    <a
+                        href="javascript:void(0)"
+                        class="buy-now d-flex justify-content-center align-items-center mx-1 add-cart"
+                        ma-sp="@item.ProductId"
+                    >
+                        <span><i class="ion-ios-cart"></i></span>
+                    </a>
+                    <a
+                        href="#"
+                        class="heart d-flex justify-content-center align-items-center"
+                    >
+                        <span><i class="ion-ios-heart"></i></span>
+                    </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    }
+} else {
+    <div class="col-md-12 text-center">
+        Chưa có sản phẩm nào
+    </div>
+}

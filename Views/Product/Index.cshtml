@@ -1,0 +1,192 @@
+﻿
+@model PagedList.Core.IPagedList<ShoeShop.Models.Product>
+@{
+    List<Category> lscate = ViewBag.Cate;
+    int CurrentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Sản phẩm trang " + CurrentPage;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int NextPage = CurrentPage + 1;
+}
+@section Styles {
+    <style type="text/css">
+        input:focus {
+            outline: none !important;
+        }
+    </style>
+}
+<div
+  class="hero-wrap hero-bread"
+  style="background-image: url('homeassets/images/bg_1.jpg')"
+>
+  <div class="container">
+    <div
+      class="row no-gutters slider-text align-items-center justify-content-center"
+    >
+      <div class="col-md-9 ftco-animate text-center">
+        <p class="breadcrumbs">
+          <span class="mr-2"><a href="index.html">Sản</a></span>
+          <span>phẩm</span>
+        </p>
+        <h1 class="mb-0 bread">Sản phẩm</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="ftco-section">
+  <div class="container">
+    <h7>
+        <a href="/">Trang chủ</a> / <a href="/san-pham">Sản phẩm</a>
+    </h7>
+    <div class="row justify-content-center">
+      
+      <div class="col-md-12 mb-5 text-center">
+        <input style="width: 50%;border-radius: 5px;border:1px solid gray;padding: 6px;" placeholder="Tìm kiếm..." id="keyword" />
+      </div>
+      <div class="col-md-10 mb-5 text-center">
+        <ul class="product-category">
+            <li><a href="/san-pham">Tất cả</a></li>
+          @foreach(var item in lscate) {
+              string url = $"/san-pham?CatID={item.CatId}";
+              <li><a href="@url">@item.CatName</a></li>
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="row" id="records_product">
+        @if(Model != null && Model.Count() > 0) {
+            foreach(var item in Model) {
+            string url = $"/san-pham/{item.Alias}-{item.ProductId}";
+            <div class="col-md-6 col-lg-3 ftco-animate">
+                <div class="product">
+                  <a href="@url" class="img-prod"
+                    ><img
+                      class="img-fluid"
+                      src="images/products/@item.Thumb"
+                      alt="Colorlib Template"
+                    />
+                    <div class="overlay"></div>
+                  </a>
+                  <div class="text py-3 pb-4 px-3 text-center">
+                    <h3><a href="@url">@item.ProductName</a></h3>
+                    <div class="d-flex">
+                      <div class="pricing">
+                        <p class="price"><span>@item.Price.ToString("#,##0")đ</span></p>
+                      </div>
+                    </div>
+                    <div class="bottom-area d-flex px-3">
+                      <div class="m-auto d-flex">
+                        <a
+                          href="@url"
+                          class="add-to-cart d-flex justify-content-center align-items-center text-center"
+                        >
+                          <span><i class="ion-ios-menu"></i></span>
+                        </a>
+                        <a
+                          href="javascript:void(0)"
+                          class="buy-now d-flex justify-content-center align-items-center mx-1 add-cart"
+                          ma-sp="@item.ProductId"
+                        >
+                          <span><i class="ion-ios-cart"></i></span>
+                        </a>
+                        <a
+                          href="#"
+                          class="heart d-flex justify-content-center align-items-center"
+                        >
+                          <span><i class="ion-ios-heart"></i></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            }
+        } else {
+            <div class="col-md-12 text-center">
+                Chưa có sản phẩm nào
+            </div>
+        }
+    </div>
+    <div class="row mt-5">
+      <div class="col text-center">
+        <div class="block-27">
+          <ul>
+            @if(Model != null && Model.Count() > 0) {
+                @if(CurrentPage > 1) {
+                    <li><a href="/san-pham?page=@(CurrentPage - 1)">&lt;</a></li>
+                } else {
+                    <li><a href="/san-pham">&lt;</a></li>
+                }   
+                <li class="active"><span>@CurrentPage</span></li>
+                <li><a href="/san-pham?page=@NextPage">@NextPage</a></li>
+                <li><a href="/san-pham?page=@NextPage">&gt;</a></li>
+            }
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@section Scripts {
+    <script>
+      $(document).ready(function () {
+        $(function(){
+            $(".add-cart").click(function(){
+                var productid = $(this).attr("ma-sp");
+                $.ajax({
+                    url: '/api/cart/add',
+                    datatype: "json",
+                    type: "POST",
+                    data: {
+                        productID: productid
+                    },
+                    success: function(results) {
+                        loadheaderCart();
+                        location.reload();
+                    },
+                    error: function(xhr) {
+                        alert("Error");
+                    }
+                });
+            })
+        });
+        function loadheaderCart() {
+            $("#cart-number").load("/AjaxContent/NumberCart");
+        }
+
+        function GetUrlParameter(sParam) {
+            var sPageUrl = window.location.search.substring(1);
+            var sURLvariables = sPageUrl.split('&');
+            for(var i = 0; i<sURLvariables.length; i++) {
+                var sParameterName = sURLvariables[i].split('=');
+                if(sParameterName[0] == sParam) {
+                    return sParameterName[1];
+                }
+            }
+        };
+
+        $("#keyword").keyup(function(){
+            var strkey = $('#keyword').val();
+            var catid = parseFloat(GetUrlParameter("CatID"));
+            $.ajax({
+                url: '/SearchProduct/FindProduct',
+                datatype: "json",
+                type: "POST",
+                data: {
+                    keyword: strkey,
+                    CatID: catid,
+                },
+                async: true,
+                success: function(results) {
+                    $("#records_product").html(results);
+                },
+                error: function(xhr) {
+                    console.log("Error");
+                }
+            });
+        });
+
+      });
+    </script>
+}

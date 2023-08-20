@@ -1,0 +1,211 @@
+﻿
+@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<ShoeShop.Models.Order>
+@{
+    int CurrentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Danh sách đơn hàng trang " + CurrentPage;
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="card">
+    <h5 class="card-header">Danh sách đơn hàng trang @CurrentPage</h5>
+  <div class="table-responsive" style="table-layout:fixed;">
+
+     <table class="table">
+      <thead>
+          <tr>
+              <th style="width: 5%;">
+                  ID
+              </th>
+              <th style="width: 16%;">
+                  Người đặt hàng
+              </th>
+              <th style="width: 15%;">
+                  Ngày đặt hàng
+              </th>
+              <th style="width: 16%;">
+                  Người giao
+              </th>
+              <th style="width: 14%;">
+                  Tổng tiền
+              </th>
+               <th style="width: 15%;" >Trạng thái</th>
+               <th >Hành động</th>
+          </tr>
+      </thead>
+      <tbody class="table-border-bottom-0" id="records_table">
+          @if(Model != null) {
+              @foreach (var item in Model)
+                {
+                      <tr>
+                          <td>
+                            #@item.OrderId
+                          </td>
+                          <td>
+                            @item.Customer.FullName
+                          </td>
+                              <td>
+                            @item.OrderDate.ToString("dd/MM/yyyy")
+                            @item.OrderDate.ToString("HH:mm")
+                              </td>
+                            @if(item.ShipperId != null)
+                            {
+                                <td>@item.Shipper.ShipperName</td>
+                            }
+                            else
+                            {
+                                 <td>Chưa giao</td>
+                            }
+                            <td>
+                            @item.TotalMoney.ToString("#,##0")đ
+                              </td>
+                              <td>
+                                @if(item.Deleted == true)
+                                {
+                                    <span class="text-danger">@item.Status</span>
+                                }
+                                else if(item.Status == "Đã giao")
+                                {
+                                    <span class="text-success">@item.Status</span>
+                                }
+                                else
+                                {
+                                    <span class="text-primary">@item.Status</span>
+                                }
+                            </td>
+                          <td>
+                     @if(item.Status != "Đã huỷ" && item.Deleted != true) {
+                                @if(@item.Status == "Đang xử lý") {
+                               <a asp-action="ConfirmOrder" asp-route-id="@item.OrderId" class="btn btn-primary">
+                                Xem chi tiết
+                               </a>
+                              }else if(@item.Status == "Chờ giao hàng") {
+                               <a asp-action="Edit" asp-route-id="@item.OrderId" class="btn btn-primary">
+                                 Xem chi tiết
+                               </a>
+                              } else if(@item.Status == "Đang giao hàng"){
+                                <a asp-action="CompleteOrder" asp-route-id="@item.OrderId" 
+                                    class="btn btn-primary">
+                                 Xem chi tiết
+                               </a>
+                              } else if(@item.Status == "Đã giao"){
+                                <a asp-action="Details" asp-route-id="@item.OrderId" 
+                                    class="btn btn-primary">
+                                 Xem chi tiết
+                               </a>
+                              }
+                               
+                     }
+                          </td>
+                      </tr>
+                }
+          }
+          
+      </tbody>
+  </table>
+  </div>
+
+  <div class="row" style="margin-left: 1.5rem">
+  <div class="col">
+    <div class="demo-inline-spacing">
+      <!-- Basic Pagination -->
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <pager class="page-item" list="@Model" asp-area="Admin" asp-controller="AdminOrders" asp-action="Index" />
+        </ul>
+      </nav>
+      <!--/ Basic Pagination -->
+    </div>
+  </div>
+</div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function (){
+            function GetUrlParameter(sParam) {
+                var sPageUrl = window.location.search.substring(1);
+                var sURLvariables = sPageUrl.split('&');
+                for(var i = 0; i<sURLvariables.length; i++) {
+                    var sParameterName = sURLvariables[i].split('=');
+                    if(sParameterName[0] == sParam) {
+                        return sParameterName[1];
+                    }
+                }
+            };
+            jQuery("#txtCatID").change(function(){
+                var catID = jQuery(this).children(":selected").attr("Value");
+                catID = parseFloat(catID)
+                $('#txtCatID option').removeAttr('selected');
+                $("#txtCatID > [value=" + catID + "]").attr("selected","true");
+
+                var idactive = $('#txtActive option:selected').attr('id');
+                if(idactive == undefined) idactive = GetUrlParameter("Active");
+
+                $.ajax({
+                    url: '/Admin/AdminProducts/Filter',
+                    datatype: "json",
+                    type: "GET",
+                    data: {
+                        CatID: catID,
+                        Active: idactive
+                    },
+                    async: true,
+                    success: function(results) {
+                        if(results.status == "success") {
+                            window.location.href = results.redirectUrl;
+                        }
+                    },
+                    error: function(xhr) {
+                        alert('error');
+                    }
+                });
+            });
+
+            jQuery("#txtActive").change(function(){
+                var active = jQuery(this).children(":selected").attr("value");  
+                $('#txtActive option').removeAttr('selected');
+                $("#txtActive > [value=" + active + "]").attr("selected","true");
+                var catID = $('#txtCatID option:selected').attr('id');
+                if(catID == undefined) catID = GetUrlParameter("CatID");
+
+                $.ajax({
+                    url: '/Admin/AdminProducts/Filter',
+                    datatype: "json",
+                    type: "GET",
+                    data: {
+                        Active: active,
+                        CatID: catID,
+                    },
+                    async: true,
+                    success: function(results) {
+                        if(results.status == "success") {
+                            window.location.href = results.redirectUrl;
+                        }
+                    },
+                    error: function(xhr) {
+                        alert('error');
+                    }
+                });
+            });
+
+            $("#keyword").keyup(function(){
+                var strkey = $('#keyword').val();
+                $.ajax({
+                    url: '/Admin/Search/FindProduct',
+                    datatype: "json",
+                    type: "POST",
+                    data: {
+                        keyword: strkey
+                    },
+                    async: true,
+                    success: function(results) {
+                        $("#records_table").html(results);
+                    },
+                    error: function(xhr) {
+                        
+                    }
+                });
+            });
+        })
+    </script>
+}

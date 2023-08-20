@@ -1,0 +1,128 @@
+﻿@model ShoeShop.Models.Order
+
+@{
+    Customer kh = ViewBag.Customer;
+    List<OrderDetail> lsorder = ViewBag.OrderDetail;
+    ViewData["Title"] = "Thông tin đơn hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <!-- Basic Layout -->
+<div class="col-xxl">
+ <div class="card mb-4">
+      <div class="card-header d-flex align-items-center justify-content-between">
+        <h5 class="mb-0">Xác nhận giao hàng</h5>
+        <button onclick="document.getElementById('edit').submit();" type="submit" class="btn btn-primary">Giao hàng</button>
+      </div>
+      <div class="card-body">
+        <form id="edit" asp-action="Edit">
+          <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="OrderId" />
+            <input type="hidden" asp-for="CustomerId" />
+            <input type="hidden" asp-for="OrderDate" />
+            <input type="hidden" asp-for="TotalMoney" />
+            <input type="hidden" asp-for="PaymentDate" />
+            <input type="hidden" asp-for="Paid"/>
+            <input type="hidden" asp-for="PaymentId" />
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-name">Tên người đặt hàng</label>
+          <div class="col-sm-10">
+          <input  type="text" disabled class="form-control" value="@kh.FullName" class="form-control" />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Ngày đặt hàng</label>
+          <div class="col-sm-10">
+          <input  type="text" class="form-control" disabled value="@Model.OrderDate" class="form-control" />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-name">Địa chỉ nhận hàng</label>
+          <div class="col-sm-10">
+          <input  type="text" disabled class="form-control" value="@kh.Address, phường @kh.Ward, quận @kh.District" class="form-control" />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Trạng thái</label>
+          <div class="col-sm-10">
+          <input  type="text" class="form-control" disabled asp-for="Status" class="form-control" />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Người giao hàng</label>
+          <div class="col-sm-10">
+            <select asp-for="ShipperId" class="form-control" asp-items="ViewBag.Shipper">
+            </select>
+                <span asp-validation-for="ShipperId" class="text-danger"></span>
+          </div>
+        </div>
+        @if(Model.Note != null) {
+            <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Ghi chú</label>
+          <div class="col-sm-10">
+          <input  type="text" class="form-control" disabled asp-for="Note" class="form-control" />
+          </div>
+        </div>
+        }
+        
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Tổng tiền</label>
+          <div class="col-sm-10">
+          <input  class="form-control" disabled value="@Model.TotalMoney" class="form-control" />
+          </div>
+        </div>
+        
+        
+        </form>
+        <div class="row mb-3">
+          <div class="col-sm-12">
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                      <th style="width: 5%;color:white">
+                          ID
+                      </th>
+                      <th style="width: 16%;color:white">
+                          Ảnh 
+                      </th>
+                      <th style="width: 20%;color:white">
+                          Tên sản phẩm
+                      </th>
+                      <th style="width: 15%;color:white">
+                          Số lượng
+                      </th>
+                      <th style="width: 15%;color:white">
+                          Đơn giá
+                      </th>
+                      <th style="width: 15%;color:white">
+                          Tồn kho
+                      </th>
+                       <th style="width: 15%;color:white" >Thành tiền</th>
+                  </tr>
+                </thead>
+                <tbody class="table-border-bottom-0" id="records_table">
+                    @if(lsorder != null && lsorder.Count() > 0){
+                        foreach(var item in lsorder) {
+                            string url = $"/san-pham/{item.Product.Alias}-{item.Product.ProductId}";
+                            <tr>
+                                <td><a href="@url">@item.ProductId</a></td>
+                                <td><image src="/images/products/@item.Product.Thumb"  height="100" width="100" /></td>
+                                <td><a href="@url">@item.Product.ProductName</a></td>
+                                <td>@item.Quantity</td>
+                                <td>@item.Product.Price.ToString("#,##0")đ</td>
+                                <td>@item.Product.Stocks</td>
+                                <td>@item.Total.ToString("#,##0")đ</td>
+                            </tr>
+                        }
+                    }
+                    
+                </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </div>
+</div>
+</div>
+</div>

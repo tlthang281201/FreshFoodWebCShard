@@ -1,0 +1,219 @@
+﻿
+@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<ShoeShop.Models.Product>
+@{
+    int CurrentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Danh sách sản phẩm" + CurrentPage;
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="card">
+    <h5 class="card-header">Danh sách sản phẩm trang @CurrentPage</h5>
+  <div class="row d-flex">
+      <div style="padding-left: 1.5rem;padding-bottom: 1.5rem" class="col-sm-5">
+          <div class="input-group input-group-merge">
+               <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Tìm kiếm..."
+                          id="keyword"
+                          name="keyword"
+                          aria-describedby="basic-addon-search31"
+                        />
+           </div>
+       </div>
+      <div style=" padding-bottom: 1.5rem" class="col-sm-3">
+       <select class="form-select" id="txtCatID" name="txtCatID" asp-items="ViewBag.DanhMuc">
+           <option disabled selected>Chọn danh mục</option>
+           <option value="0">Tất cả</option>
+        </select>
+      </div>
+      <div  class="col-sm-2">
+       <select class="form-select" id="txtActive" name="txtActive" asp-items="ViewBag.TrangThai">
+           <option disabled selected>Trạng thái</option>
+           <option value="0">Tất cả</option>
+        </select>
+      </div>
+      <div class="col-sm-2 ms-auto">
+        <button onclick="location.href='@Url.Action("Create")'" class="btn btn-primary">
+            <i class="fa-solid fa-plus"></i>&nbsp;Thêm mới
+         </button>
+      </div>
+  </div>
+  <div class="table-responsive" style="table-layout:fixed;">
+
+     <table class="table">
+      <thead>
+          <tr>
+              <th style="width: 10%;">
+                  Hình ảnh
+              </th>
+              <th style="width: 20%;">
+                  Tên sản phẩm
+              </th>
+              <th style="width: 13%;">
+                  Danh mục
+              </th>
+
+              <th style="width: 10%;">
+                  Giá
+              </th>
+              <th style="width: 10%;">Tồn kho</th>
+               <th  style="width: 17%;" >Trạng thái</th>
+               <th style="text-align:center;">Hành động</th>
+          </tr>
+      </thead>
+      <tbody class="table-border-bottom-0" id="records_table">
+          @if(Model != null) {
+              @foreach (var item in Model)
+                {
+                      <tr>
+                          <td>
+                            <img src="~/images/products/@item.Thumb" height="100" width="100"/>
+                          </td>
+                          <td>
+                            @item.ProductName
+                          </td>
+                              <td>
+                            @item.Cat.CatName
+                              </td>
+                              <td>
+                            @item.Price.ToString("#,##0")đ
+                              </td>
+                              <td>
+                            @item.Stocks
+                              </td>
+                          <td>  
+                            @if (item.Active)
+                            {
+                               <span class="badge bg-label-success me-1" style="width: 65px;">Hiển thị</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-label-danger me-1" style="width: 65px;">Đã ẩn</span>
+                               
+                            }
+                            @if(item.BestSeller) {
+                                <span class="badge bg-label-warning me-1" style="width: 65px;margin-top: 10px;">Bán chạy</span>
+                            }
+                          </td>
+                          <td>
+
+                               <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-info">
+                                    <i class="fa-solid fa-pen-to-square text-white" ></i></a>
+                               <a asp-action="Delete"  asp-route-id="@item.ProductId" class="btn btn-danger">
+                                    <i class="fa-solid fa-trash  text-white" ></i></a>
+                          </td>
+                      </tr>
+                }
+          }
+          
+      </tbody>
+  </table>
+  </div>
+
+  <div class="row" style="margin-left: 1.5rem">
+  <div class="col">
+    <div class="demo-inline-spacing">
+      <!-- Basic Pagination -->
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <pager class="page-item" list="@Model" asp-area="Admin" asp-route-CatID = "@ViewBag.CurrentCatID" asp-controller="AdminProducts" asp-action="Index" />
+        </ul>
+      </nav>
+      <!--/ Basic Pagination -->
+    </div>
+  </div>
+</div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function (){
+            function GetUrlParameter(sParam) {
+                var sPageUrl = window.location.search.substring(1);
+                var sURLvariables = sPageUrl.split('&');
+                for(var i = 0; i<sURLvariables.length; i++) {
+                    var sParameterName = sURLvariables[i].split('=');
+                    if(sParameterName[0] == sParam) {
+                        return sParameterName[1];
+                    }
+                }
+            };
+            jQuery("#txtCatID").change(function(){
+                var catID = jQuery(this).children(":selected").attr("Value");
+                catID = parseFloat(catID)
+                $('#txtCatID option').removeAttr('selected');
+                $("#txtCatID > [value=" + catID + "]").attr("selected","true");
+
+                var idactive = $('#txtActive option:selected').attr('id');
+                if(idactive == undefined) idactive = GetUrlParameter("Active");
+
+                $.ajax({
+                    url: '/Admin/AdminProducts/Filter',
+                    datatype: "json",
+                    type: "GET",
+                    data: {
+                        CatID: catID,
+                        Active: idactive
+                    },
+                    async: true,
+                    success: function(results) {
+                        if(results.status == "success") {
+                            window.location.href = results.redirectUrl;
+                        }
+                    },
+                    error: function(xhr) {
+                        alert('error');
+                    }
+                });
+            });
+
+            jQuery("#txtActive").change(function(){
+                var active = jQuery(this).children(":selected").attr("value");  
+                $('#txtActive option').removeAttr('selected');
+                $("#txtActive > [value=" + active + "]").attr("selected","true");
+                var catID = $('#txtCatID option:selected').attr('id');
+                if(catID == undefined) catID = GetUrlParameter("CatID");
+
+                $.ajax({
+                    url: '/Admin/AdminProducts/Filter',
+                    datatype: "json",
+                    type: "GET",
+                    data: {
+                        Active: active,
+                        CatID: catID,
+                    },
+                    async: true,
+                    success: function(results) {
+                        if(results.status == "success") {
+                            window.location.href = results.redirectUrl;
+                        }
+                    },
+                    error: function(xhr) {
+                        alert('error');
+                    }
+                });
+            });
+
+            $("#keyword").keyup(function(){
+                var strkey = $('#keyword').val();
+                $.ajax({
+                    url: '/Admin/Search/FindProduct',
+                    datatype: "json",
+                    type: "POST",
+                    data: {
+                        keyword: strkey
+                    },
+                    async: true,
+                    success: function(results) {
+                        $("#records_table").html(results);
+                    },
+                    error: function(xhr) {
+                        
+                    }
+                });
+            });
+        })
+    </script>
+}

@@ -1,0 +1,1477 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoeShop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ShoeShop.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\adminassets\\css\\demo.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\adminassets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\adminassets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\js\\config.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\config.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\js\\main.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\adminassets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\css\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\homeassets\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\animate.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\aos.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\aos.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\css\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\css\\css\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\css\\mixins\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\css\\css\\mixins\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\css\\mixins\\_text-hide.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\css\\mixins\\_text-hide.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\icomoon.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\jquery.timepicker.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\jquery.timepicker.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\css\\style.css",
+      "PackagePath": "staticwebassets\\homeassets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\backup.txt",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\backup.txt"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\font\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\font\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\font\\Flaticon.eot"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\font\\Flaticon.svg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\font\\Flaticon.ttf"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\font\\Flaticon.woff"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\font\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\font\\Flaticon.woff2"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\font\\_flaticon.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\font\\flaticon.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\font\\flaticon.html"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\flaticon\\license\\license.pdf",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\flaticon\\license\\license.pdf"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\icomoon\\icomoon.eot",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\icomoon\\icomoon.eot"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\icomoon\\icomoon.svg",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\icomoon\\icomoon.svg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\icomoon\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\icomoon\\icomoon.ttf"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\icomoon\\icomoon.woff",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\icomoon\\icomoon.woff"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\ionicons\\css\\_ionicons.scss",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\ionicons\\css\\_ionicons.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\ionicons\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\ionicons\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\ionicons\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\ionicons\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\ionicons\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\ionicons\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\ionicons\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\ionicons\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\ionicons\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\ionicons\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\ionicons\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\ionicons\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\ionicons\\fonts\\ionicons.woff2",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\ionicons\\fonts\\ionicons.woff2"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\open-iconic\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\open-iconic\\open-iconic.eot"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\open-iconic\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\open-iconic\\open-iconic.otf"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\open-iconic\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\open-iconic\\open-iconic.svg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\open-iconic\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\open-iconic\\open-iconic.ttf"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\fonts\\open-iconic\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\homeassets\\fonts\\open-iconic\\open-iconic.woff"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\images\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\about.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\bg_1.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\bg_1.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\bg_2.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\bg_2.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\bg_3.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\bg_3.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\category-1.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\category-1.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\category-2.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\category-2.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\category-3.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\category-3.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\category-4.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\category-4.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\category.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\category.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\image_1.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\image_1.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\image_2.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\image_2.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\image_3.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\image_3.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\image_4.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\image_4.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\image_5.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\image_5.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\image_6.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\image_6.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\partner-1.png",
+      "PackagePath": "staticwebassets\\homeassets\\images\\partner-1.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\partner-2.png",
+      "PackagePath": "staticwebassets\\homeassets\\images\\partner-2.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\partner-3.png",
+      "PackagePath": "staticwebassets\\homeassets\\images\\partner-3.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\partner-4.png",
+      "PackagePath": "staticwebassets\\homeassets\\images\\partner-4.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\partner-5.png",
+      "PackagePath": "staticwebassets\\homeassets\\images\\partner-5.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\person_1.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\person_2.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\person_3.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\person_4.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-1.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-1.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-10.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-10.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-11.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-11.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-12.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-12.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-2.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-2.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-3.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-3.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-4.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-4.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-5.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-5.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-6.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-6.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-7.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-7.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-8.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-8.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\images\\product-9.jpg",
+      "PackagePath": "staticwebassets\\homeassets\\images\\product-9.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\js\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\aos.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\aos.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\google-map.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\google-map.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\jquery-migrate-3.0.1.min.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\jquery-migrate-3.0.1.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\jquery.animateNumber.min.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\jquery.animateNumber.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\jquery.easing.1.3.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\jquery.stellar.min.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\jquery.stellar.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\main.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\range.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\range.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\js\\scrollax.min.js",
+      "PackagePath": "staticwebassets\\homeassets\\js\\scrollax.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\homeassets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\homeassets\\scss\\style.scss"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\news\\Aa5UTiarUo.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\Aa5UTiarUo.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\news\\GXal0VaCkU.png",
+      "PackagePath": "staticwebassets\\images\\news\\GXal0VaCkU.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\news\\OvjfRKTYCE.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\OvjfRKTYCE.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\news\\QmeMGUJLRN.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\QmeMGUJLRN.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\news\\RNUx5Jm1f1.png",
+      "PackagePath": "staticwebassets\\images\\news\\RNUx5Jm1f1.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\news\\SSYfrcijMm.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\SSYfrcijMm.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\news\\iZsjocNGbO.png",
+      "PackagePath": "staticwebassets\\images\\news\\iZsjocNGbO.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\news\\jR91fU5Z3Q.png",
+      "PackagePath": "staticwebassets\\images\\news\\jR91fU5Z3Q.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\news\\tBxwOUl0Kq.png",
+      "PackagePath": "staticwebassets\\images\\news\\tBxwOUl0Kq.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\DwCwYiS6i7.png",
+      "PackagePath": "staticwebassets\\images\\products\\DwCwYiS6i7.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\HW167U6XAD.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\HW167U6XAD.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\Screenshot (215).png",
+      "PackagePath": "staticwebassets\\images\\products\\Screenshot (215).png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\WDQpdxmfeX.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\WDQpdxmfeX.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\Xch8iFtnAL.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Xch8iFtnAL.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\YYsZN2WfrG.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\YYsZN2WfrG.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\ZCHSoFu9ri.png",
+      "PackagePath": "staticwebassets\\images\\products\\ZCHSoFu9ri.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\gjEpInhYWA.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\gjEpInhYWA.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\hB85V5ebwA.png",
+      "PackagePath": "staticwebassets\\images\\products\\hB85V5ebwA.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\hx2HSsFpvm.png",
+      "PackagePath": "staticwebassets\\images\\products\\hx2HSsFpvm.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\iX5okO1GpS.png",
+      "PackagePath": "staticwebassets\\images\\products\\iX5okO1GpS.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\s2208odotI.png",
+      "PackagePath": "staticwebassets\\images\\products\\s2208odotI.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\ssYDuF7az9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ssYDuF7az9.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\tkn7X2EbrW.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\tkn7X2EbrW.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\vmYFCSdzLL.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\vmYFCSdzLL.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\vwpsBTn21X.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\vwpsBTn21X.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\yV0SWwicM6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\yV0SWwicM6.jpg"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\zc.png",
+      "PackagePath": "staticwebassets\\images\\products\\zc.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\images\\products\\zczc.png",
+      "PackagePath": "staticwebassets\\images\\products\\zczc.png"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\DoAn\\DoAnCSharp\\ShoeShopSolution\\ShoeShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ShoeShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ShoeShop.props",
+      "PackagePath": "build\\ShoeShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ShoeShop.props",
+      "PackagePath": "buildMultiTargeting\\ShoeShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ShoeShop.props",
+      "PackagePath": "buildTransitive\\ShoeShop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

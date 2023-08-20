@@ -1,0 +1,143 @@
+﻿@model ShoeShop.Models.News
+@{
+    List<News> lsnew = ViewBag.TinLienQuan;
+    ViewData["Title"] = @Model.Title;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div
+  class="hero-wrap hero-bread"
+  style="background-image: url('../homeassets/images/bg_1.jpg')"
+>
+  <div class="container">
+    <div
+      class="row no-gutters slider-text align-items-center justify-content-center"
+    >
+      <div class="col-md-9 ftco-animate text-center">
+        <p class="breadcrumbs">
+          <span class="mr-2"><a href="index.html">Tin</a></span>
+          <span>Tức</span>
+        </p>
+        <h1 class="mb-0 bread">Tin tức</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="ftco-section ftco-degree-bg">
+  <div class="container">
+    <h7>
+        <a href="/">Trang chủ</a> / <a href="/tin-tuc">Tin tức</a> / <a href="/tin-tuc/@Model.Alias-@Model.PostId">@Model.Title</a>
+    </h7>
+    <div class="row" style="margin-top: 30px">
+      <div class="col-lg-8 ftco-animate">
+        <h2 class="mb-3">@Model.Title</h2>
+        <div id="contentNews">
+            @Html.Raw(Model.Contents)
+        </div>
+        <div class="pt-5 mt-5">
+          <h3 class="mb-5">6 Comments</h3>
+          <ul class="comment-list">
+            <li class="comment">
+              <div class="vcard bio">
+                <img src="../homeassets/images/person_1.jpg" alt="Image placeholder" />
+              </div>
+              <div class="comment-body">
+                <h3>John Doe</h3>
+                <div class="meta">June 27, 2018 at 2:21pm</div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Pariatur quidem laborum necessitatibus, ipsam impedit vitae
+                  autem, eum officia, fugiat saepe enim sapiente iste iure! Quam
+                  voluptas earum impedit necessitatibus, nihil?
+                </p>
+                <p><a href="#" class="reply">Reply</a></p>
+              </div>
+            </li>
+          </ul>
+          <!-- END comment-list -->
+
+          <div class="comment-form-wrap pt-5">
+            <h3 class="mb-5">Leave a comment</h3>
+            <form action="#" class="p-5 bg-light">
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="form-group">
+                <label for="website">Website</label>
+                <input type="url" class="form-control" id="website" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  name=""
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <input
+                  type="submit"
+                  value="Post Comment"
+                  class="btn py-3 px-4 btn-primary"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- .col-md-8 -->
+      <div class="col-lg-4 sidebar ftco-animate">
+        <div class="sidebar-box">
+          <form action="#" class="search-form">
+            <div class="form-group">
+              <span class="icon ion-ios-search"></span>
+              <input type="text" class="form-control" placeholder="Tìm kiếm..." />
+            </div>
+          </form>
+        </div>
+        
+        <div class="sidebar-box ftco-animate">
+          <h3 class="heading">Tin tương tự</h3>
+            @if(lsnew != null && lsnew.Count()>0){
+               foreach(var item in lsnew) {
+                   string url = $"/tin-tuc/{@item.Alias}-{@item.PostId}";
+                   <div class="block-21 mb-4 d-flex">
+                    <a
+                      class="blog-img mr-4"
+                      style="background-image: url('/images/news/@item.Thumb')"
+                    ></a>
+                    <div class="text">
+                      <h3 class="heading-1">
+                        <a href="@url"
+                          >@item.Title</a>
+                      </h3>
+                      <div class="meta">
+                        <div>
+                          <a href="@url"
+                            ><span class="icon-calendar"></span> @item.DateCreated.ToString("dd/MM/yyyy")</a>
+                        </div>
+                        <div>
+                          <a href="@url"> @item.DateCreated.ToString("HH:mm")</a>
+                        </div>
+                        <div>
+                          <a href="@url"><span class="icon-chat"></span> 19</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               }
+            }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

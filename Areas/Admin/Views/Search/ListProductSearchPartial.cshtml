@@ -1,0 +1,44 @@
+﻿@model List<Product>
+@if(Model != null) {
+  @foreach (var item in Model)
+    {
+          <tr>
+              <td>
+                <img src="~/images/products/@item.Thumb" height="100" width="100"/>
+              </td>
+              <td>
+                @item.ProductName
+              </td>
+                  <td>
+                @item.Cat.CatName
+                  </td>
+                  <td>
+                @item.Price.ToString("#,##0")đ
+                  </td>
+                  <td>
+                @item.Stocks
+                  </td>
+              <td>  
+                @if (item.Active)
+                {
+                   <span class="badge bg-label-success me-1" style="width: 65px">Hiển thị</span>
+                }
+                else
+                {
+                    <span class="badge bg-label-danger me-1" style="width: 65px">Đã ẩn</span>
+                   
+                }
+                @if(item.BestSeller) {
+                    <span class="badge bg-label-warning me-1">Bán chạy</span>
+                }
+              </td>
+              <td>
+
+                   <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-info">
+                        <i class="fa-solid fa-pen-to-square text-white" ></i></a>
+                   <a asp-action="Delete"  asp-route-id="@item.ProductId" class="btn btn-danger">
+                        <i class="fa-solid fa-trash  text-white" ></i></a>
+              </td>
+          </tr>
+    }
+}

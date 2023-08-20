@@ -1,0 +1,168 @@
+﻿@model List<ShoeShop.ModelView.CartItem>
+@{
+    ViewData["Title"] = "Giỏ hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div
+  class="hero-wrap hero-bread"
+  style="background-image: url('homeassets/images/bg_1.jpg')"
+>
+  <div class="container">
+    <div
+      class="row no-gutters slider-text align-items-center justify-content-center"
+    >
+      <div class="col-md-9 ftco-animate text-center">
+        <p class="breadcrumbs">
+          <span class="mr-2"><a href="index.html">Giỏ</a></span>
+          <span>Hàng</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="ftco-section ftco-cart">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 ftco-animate">
+        <div class="cart-list">
+          <table class="table">
+            <thead class="thead-primary">
+              <tr class="text-center">
+                <th>Xoá</th>
+                <th>Hình ảnh</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Tổng tiền</th>
+              </tr>
+            </thead>
+            <tbody>
+              @if(Model != null && Model.Count() > 0) {
+                 foreach(var item in Model) {
+                     string url = $"/san-pham/{item.product.Alias}-{item.product.ProductId}";
+                     <tr class="text-center">
+                        <td class="product-remove">
+                          <input type="button"  ma-sp="@item.product.ProductId" class="removesp" value="X" />
+                        </td>
+
+                        <td class="image-prod">
+                          <div
+                            class="img"
+                            style="background-image: url(/images/products/@item.product.Thumb)"
+                          ></div>
+                        </td>
+
+                        <td class="product-name">
+                          <h3><a href="@url">@item.product.ProductName</a></h3>
+                          <p>
+                            @item.product.ShortDesc
+                          </p>
+                        </td>
+
+                        <td class="price">@item.product.Price.ToString("#,##0")đ</td>
+
+                        <td class="quantity">
+                          <div class="input-group mb-3">
+                            <input
+                              type="number"
+                              id="quantityitem"
+                              name="quantity"
+                              class="quantity form-control input-number"
+                              value="@item.amount"
+                              min="1"
+                              max="100"
+                              ma-sp="@item.product.ProductId"
+                            />
+                          </div>
+                        </td>
+
+                        <td class="total">@item.total.ToString("#,##0")đ</td>
+                      </tr>
+                 }
+              }
+              else {
+                  <tr>
+                      <td colspan="6">Chưa có sản phẩm trong giỏ hàng</td>
+                  </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    @if(Model != null && Model.Count()>0) {
+        <div class="row justify-content-start">
+          <div class="col-lg-4 mt-5 cart-wrap ftco-animate">
+            <div class="cart-total mb-3">
+              <h3>Tổng đơn hàng</h3>
+              <p class="d-flex">
+                <span>Thành tiền</span>
+                <span>@Model.Sum(x=>x.total).ToString("#,##0")đ</span>
+              </p>
+            </div>
+            <p>
+              @if(User.Identity.IsAuthenticated) {
+                <a href="/thanh-toan" class="btn btn-primary py-3 px-4" >Thanh toán</a>
+              }
+              else {
+                 <a href="/dang-nhap" class="btn btn-primary py-3 px-4" >Thanh toán</a>
+              }
+            </p>
+          </div>
+        </div>
+    }
+  </div>
+</section>
+
+@section Scripts {
+    <script>
+      $(document).ready(function () {
+            $(".input-number").click(function(){
+                var productid = $(this).attr("ma-sp");
+                var soluong = $(this).val();
+                $.ajax({
+                    url: '/api/cart/update',
+                    datatype: "JSON",
+                    type: "POST",
+                    data: {
+                        productID: productid,
+                        amount: soluong
+                    },
+                    success: function(results) {
+                        if(results.success) {
+                            loadheaderCart();
+                            window.location = "/gio-hang";
+                        }
+                    },
+                    error: function(xhr) {
+                        alert("Error");
+                    }
+                });
+            })
+        $(".removesp").click(function(){
+                var productid = $(this).attr("ma-sp");
+                $.ajax({
+                    url: '/api/cart/remove',
+                    datatype: "JSON",
+                    type: "POST",
+                    data: {
+                        productID: productid
+                    },
+                    success: function(results) {
+                        if(results.success) {
+                            loadheaderCart();
+                            window.location = "/gio-hang";
+                        }
+                    },
+                    error: function(xhr) {
+                        alert("Error");
+                    }
+                });
+            })
+        function loadheaderCart() {
+            $("#cart-number").load("/AjaxContent/NumberCart");
+        }
+      });
+    </script>
+}

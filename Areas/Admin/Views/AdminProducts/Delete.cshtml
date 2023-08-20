@@ -1,0 +1,192 @@
+﻿@model ShoeShop.Models.Product
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+@section Styles {
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <style>
+            a:visited {
+              text-decoration: none;
+            }
+
+            /* mouse over link */
+            a:hover {
+              text-decoration: none;
+            }
+
+            /* selected link */
+            a:active {
+              text-decoration: none;
+            }
+            a {
+              text-decoration: none;
+            }
+            .fade {
+               opacity: 1;
+            }
+    </style>
+}
+
+<div class="row">
+  <div class="nav-align-top mb-4">
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <button
+          type="button"
+          class="nav-link active"
+          role="tab"
+          data-bs-toggle="tab"
+          data-bs-target="#navs-top-home"
+          aria-controls="navs-top-home"
+          aria-selected="true"
+        >
+          Thông tin sản phẩm
+        </button>
+      </li>
+      <li class="nav-item">
+        <button
+          type="button"
+          class="nav-link"
+          role="tab"
+          data-bs-toggle="tab"
+          data-bs-target="#navs-top-profile"
+          aria-controls="navs-top-profile"
+          aria-selected="false"
+        >
+          Mô tả
+        </button>
+      </li>
+      <li class="nav-item" style="display:block;margin-left:auto;margin-right: 0;">
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="ProductId" />
+            <input type="submit" value="Xoá" class="btn btn-danger" />
+        </form>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="navs-top-home" role="tabpanel">
+
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-name">Tên sản phẩm</label>
+          <div class="col-sm-5">
+          <input  type="text" required id="basic-default-name" asp-for="ProductName" class="form-control" />
+          </div>
+          <span asp-validation-for="ProductName" class="text-danger"></span>
+        </div>
+
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Danh mục</label>
+          <div class="col-sm-5">
+         <select asp-for="CatId" class ="form-control" asp-items="ViewBag.DanhMuc"></select>
+          </div>
+          <span asp-validation-for="CatId" class="text-danger"></span>
+        </div>
+
+         <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Giá tiền</label>
+          <div class="col-sm-5">
+         <input class="form-control" required asp-for="Price" class="form-control" />
+          </div>
+          <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Khuyến mãi(%)</label>
+          <div class="col-sm-5">
+         <input class="form-control" required asp-for="Discount" class="form-control" />
+          </div>
+          <span asp-validation-for="Discount" class="text-danger"></span>
+        </div>
+
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Ảnh sản phẩm</label>
+          <div class="col-sm-5">
+            <input class="form-control" type="file" accept="image/png, image/jpeg" id="formFile" asp-for="Thumb" />
+          </div>
+          <span asp-validation-for="Thumb" class="text-danger"></span>
+        </div>
+
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Tag</label>
+          <div class="col-sm-5">
+         <input class="form-control" required asp-for="Tags" class="form-control" />
+          </div>
+          <span asp-validation-for="Tags" class="text-danger"></span>
+        </div>
+
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Hàng tồn kho</label>
+          <div class="col-sm-5">
+         <input class="form-control" required asp-for="Stocks" class="form-control" />
+          </div>
+          <span asp-validation-for="Stocks" class="text-danger"></span>
+        </div>
+
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-email">Hiển thị</label>
+          <div class="col-sm-5">
+          <div class="input-group input-group-merge">
+             <div class="form-check form-switch mb-2">
+                 <input class="form-check-input" type="checkbox" asp-for="Active"/>
+              </div>
+          </div>
+
+          <span asp-validation-for="Active" class="text-danger"></span>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-email">Bán chạy</label>
+          <div class="col-sm-10">
+          <div class="input-group input-group-merge">
+
+             <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" asp-for="BestSeller"/>
+
+                      </div>
+          </div>
+
+          <span asp-validation-for="BestSeller" class="text-danger"></span>
+          </div>
+        </div>  
+      </div>
+      <div class="tab-pane fade" id="navs-top-profile" role="tabpanel">
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Mô tả ngắn</label>
+          <div class="col-sm-10">
+          <textarea type="text" required asp-for="ShortDesc" class="form-control" rows="3"></textarea>
+          </div>
+          <span asp-validation-for="ShortDesc" class="text-danger"></span>
+        </div>
+
+        <div class="row mb-3">
+          <label class="col-sm-2 col-form-label" for="basic-default-company">Mô tả</label>
+          <div class="col-sm-10">
+          <textarea  type="text" required asp-for="Description" class="form-control"></textarea>
+          </div>
+          <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('#Description').summernote({
+                height: 200,
+                minHeight: null,
+                maxHeight: null
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+}

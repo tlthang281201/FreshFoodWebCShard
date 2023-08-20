@@ -1,0 +1,15 @@
+﻿@model List<ShoeShop.ModelView.CartItem>
+@if(Model != null && Model.Count() > 0)
+{
+  <li class="nav-item cta cta-colored" id="cart-number">
+    <a href="/gio-hang" class="nav-link">
+        <span class="icon-shopping_cart"></span>[@Model.Count()]</a>
+  </li>
+}
+else
+{
+   <li class="nav-item cta cta-colored">
+    <a href="#" class="nav-link">
+        <span class="icon-shopping_cart"></span>[0]</a>
+    </li> 
+}

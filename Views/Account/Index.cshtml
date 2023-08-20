@@ -1,0 +1,125 @@
+﻿@model ShoeShop.Models.Customer
+
+@{
+    ViewData["Title"] = "Thông tin cá nhân";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div
+  class="hero-wrap hero-bread"
+  style="background-image: url('homeassets/images/bg_1.jpg')"
+>
+  <div class="container">
+
+    <div
+      class="row no-gutters slider-text align-items-center justify-content-center"
+    >
+      <div class="col-md-9 ftco-animate text-center">
+        <p class="breadcrumbs">
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="ftco-section ftco-cart">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-3 cart-wrap ftco-animate">
+        <div class="cart-total mb-3">
+           <div class="justify-content-center">
+              <image src="@Model.Avatar" style="border-radius: 100%;heigh:100px;width:100px;" />
+              <h3 style="margin-top:20px;">Xin chào, <span class="font-weight-bold">@Model.FullName</span></h3>
+           </div>
+           <div class="justify-content-start">
+               <a href="/thong-tin-ca-nhan">Thông tin cá nhân</a><br />
+               <a href="/danh-sach-don-hang">Danh sách đơn hàng</a><br />
+               <a href="/thay-doi-mat-khau">Thay đổi mật khẩu</a><br />
+               <a href="/dang-xuat">Đăng xuất</a><br />
+           </div>
+        </div>
+      </div>
+      <div class="col-lg-7 cart-wrap ftco-animate">
+        <div class="cart-total mb-3">
+          <h3 class="font-weight-bold">Thông tin cá nhân</h3>
+          <form asp-action="Index" method="post" class="info">
+            <div class="form-group">
+              <label for="">Họ và tên</label>
+              <input
+                type="text"
+                class="form-control text-left px-3"
+                placeholder=""
+                asp-for="@Model.FullName"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="country">Email</label>
+              <input
+                type="text"
+                class="form-control text-left px-3"
+                asp-for="@Model.Email"
+                disabled
+              />
+            </div>
+            <div class="form-group">
+              <label for="country">Số điện thoại</label>
+              <input
+                type="text"
+                class="form-control text-left px-3"
+                asp-for="@Model.Phone"
+                disabled
+              />
+            </div>
+            <h3 class="font-weight-bold">Địa chỉ nhận hàng</h3>
+            <div class="form-group">
+              <label for="country">Quận, huyện</label>
+              <select
+                type="text"
+                class="form-control text-left px-3"
+                asp-for="@Model.District"
+              >
+                <option value="Hải Châu">Hải Châu</option>
+                <option value="Ngũ Hành Sơn">Ngũ Hành Sơn</option>
+                <option value="Liên Chiểu">Liên Chiểu</option>
+                <option value="Cẩm Lệ">Cẩm Lệ</option>
+                <option value="Thanh Khê">Thanh Khê</option>
+                <option value="Sơn Trà">Sơn Trà</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="country">Phường</label>
+             <select
+                type="text"
+                class="form-control text-left px-3"
+                asp-for="@Model.Ward"
+              >
+                <option value="Hải Châu 2">Hải Châu 2</option>
+                    <option value="Hòa Hải">Hòa Hải</option>
+                    <option value="Bắc Mỹ An">Bắc Mỹ An</option>
+                    <option value="Hòa Quý">Hòa Quý</option>
+                    <option value="Phước Mỹ">Phước Mỹ</option>
+                    <option value="Thuận Phước">Thuận Phước</option>
+                    <option value="Nam Dương">Nam Dương</option>
+                    <option value="Hòa Cường Nam">Hòa Cường Nam</option>
+                    <option value="Bình Thuận">Bình Thuận</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="country">Địa chỉ cụ thể</label>
+              <input
+                type="text"
+                class="form-control text-left px-3"
+                asp-for="@Model.Address"
+                placeholder="Số nhà, đường, tổ,.."
+              />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Cập nhập" class="btn btn-primary " />
+            </div>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+

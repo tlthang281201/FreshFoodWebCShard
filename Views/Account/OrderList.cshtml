@@ -1,0 +1,87 @@
+﻿@model ShoeShop.Models.Customer
+
+@{
+    List<Order> lsdonhang = ViewBag.Donhang;
+    ViewData["Title"] = "Danh sách đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div
+  class="hero-wrap hero-bread"
+  style="background-image: url('homeassets/images/bg_1.jpg')"
+>
+  <div class="container">
+
+    <div
+      class="row no-gutters slider-text align-items-center justify-content-center"
+    >
+      <div class="col-md-9 ftco-animate text-center">
+        <p class="breadcrumbs">
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="ftco-section ftco-cart">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-3 cart-wrap ftco-animate">
+        <div class="cart-total mb-3">
+           <div class="justify-content-center">
+              <image src="@Model.Avatar" style="border-radius: 100%;heigh:100px;width:100px;" />
+              <h3 style="margin-top:20px;">Xin chào, <span class="font-weight-bold">@Model.FullName</span></h3>
+           </div>
+           <div class="justify-content-start">
+               <a href="/thong-tin-ca-nhan">Thông tin cá nhân</a><br />
+               <a href="/danh-sach-don-hang">Danh sách đơn hàng</a><br />
+               <a href="/thay-doi-mat-khau">Thay đổi mật khẩu</a><br />
+               <a href="/dang-xuat">Đăng xuất</a><br />
+           </div>
+        </div>
+      </div>
+      <div class="col-lg-9 cart-wrap ftco-animate">
+        <div class="cart-total mb-3">
+          <h3 class="font-weight-bold">Danh sách đơn hàng</h3>
+          <div class="table-responsive">
+              @if(lsdonhang != null && lsdonhang.Count() > 0) {
+               <table class="table table-striped" style="min-width:600px !important;">
+                   <thead class="thead-dark">
+                      <tr>
+                          <th>ID đơn hàng</th>
+                          <th>Ngày đặt</th>
+                          <th>Ngày giao</th>
+                          <th>Trạng thái</th>
+                          <th>Tổng tiền</th>
+                          <th>#</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                  @foreach(var item in lsdonhang) {
+                    string url = $"/chi-tiet-don-hang-{item.OrderId}";
+                    <tr>
+                        <td>#@item.OrderId</td>
+                        <td>@item.OrderDate.ToString("dd/MM/yyyy") - @item.OrderDate.ToString("HH:mm")</td>
+                        @if(@item.ShipDate == null){
+                             <td>Chưa giao hàng</td>
+                        }
+                        else {
+                             <td>@item.ShipDate.Value.ToString("dd/MM/yyyy") - @item.ShipDate.Value.ToString("HH:mm")</td>
+                        }
+                        <td>@item.Status</td>
+                        <td>@item.TotalMoney.ToString("#,##0")đ</td>
+                        <td><a href="@url">Xem đơn hàng</a></td>
+                    </tr>
+                  }   
+                  </tbody>
+                </table>
+                }
+                 else {
+                 <span>Bạn chưa có đơn hàng nào</span>
+                 }
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+

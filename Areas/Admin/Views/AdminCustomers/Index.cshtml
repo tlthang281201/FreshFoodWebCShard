@@ -1,0 +1,131 @@
+﻿
+@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<ShoeShop.Models.Customer>
+@{
+    int CurrentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Danh sách khách hàng" + CurrentPage;
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="card">
+    <h5 class="card-header">Danh sách khách hàng trang @CurrentPage</h5>
+  <div class="row d-flex">
+      <div style="padding-left: 1.5rem;padding-bottom: 1.5rem" class="col-sm-2">
+       <select class="form-select "  id = "txtActive">
+           <option disabled selected>Trạng thái</option>
+           <option value="0">Tất cả</option>
+           <option value="1">Hoạt động</option>
+            <option value="2">Bị khoá</option>
+        </select>
+      </div>
+  </div>
+  <div class="table-responsive" style="table-layout:fixed;">
+
+     <table class="table">
+      <thead>
+          <tr>
+            <th style="width: 15%;">
+                Họ và tên
+            </th>
+            <th style="width: 15%;">
+                Email
+            </th>
+            <th style="width: 15%;">
+                Số điện thoại
+            </th>
+            <th style="width: 20%;">
+               Địa chỉ
+            </th>
+            <th style="width: 10%;">
+               Trạng thái
+            </th>
+            <th>
+               Hành động
+            </th>
+          </tr>
+      </thead>
+      <tbody class="table-border-bottom-0">
+          @if(Model != null) {
+              @foreach (var item in Model)
+                {
+                      <tr>
+                        <td>
+                            @item.FullName
+                        </td>
+                        <td>
+                            @item.Email
+                        </td>
+                        <td>
+                            @item.Phone
+                        </td>
+                        <td>
+                            @if(@item.Address != null || @item.Ward != null || @item.District != null)   {
+                                <span>@item.Address, phường @item.Ward, quận @item.District</span>
+                            } else {
+                                <span>Chưa cập nhập</span>
+                                
+                            }
+                        </td>
+                        <td>
+                            @if (item.Active)
+                            {
+                                        <span class="badge bg-label-success me-1">Hoạt động</span>
+                            }
+                            else
+                            {
+                                        <span class="badge bg-label-warning me-1">Bị khoá</span>
+                            }
+                        </td>
+                        <td>
+                            @if(item.Active == true) {
+                                <button onclick="document.getElementById('update_@item.CustomerId').submit();" class="btn btn-danger">
+                                 Disable
+                               </button>
+                                <form id="update_@item.CustomerId" asp-action="UpdateStatus" 
+                                    asp-route-id="@item.CustomerId" asp-route-status="1">
+                                    <input type="hidden" asp-for="@item.CustomerId" />
+                                </form>
+                            }else {
+                                <button onclick="document.getElementById                ('update_@item.CustomerId').submit();" class="btn btn-success">
+                                  Active
+                                </button>
+                                <form id="update_@item.CustomerId" asp-action="UpdateStatus" 
+                                    asp-route-id="@item.CustomerId" asp-route-status="2">
+                                    <input type="hidden" asp-for="@item.CustomerId" />
+                                </form>
+                            }
+                        </td>
+                      </tr>
+                }
+          }
+          
+      </tbody>
+  </table>
+  </div>
+
+  <div class="row" style="margin-left: 1.5rem">
+  <div class="col">
+    <div class="demo-inline-spacing">
+      <!-- Basic Pagination -->
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <pager class="page-item" list="@Model" asp-area="Admin" asp-controller="AdminProducts" asp-action="Index" />
+        </ul>
+      </nav>
+      <!--/ Basic Pagination -->
+    </div>
+  </div>
+</div>
+</div>
+@section Scripts {
+        <script>
+            $(document).ready(function (){
+                jQuery("#txtActive").change(function(){
+                    var active = jQuery(this).children(":selected").attr("value");  
+                    $('#txtActive option').removeAttr('selected');
+                    $("#txtActive > [value=" + active + "]").attr("selected","true");
+
+                    window.location.href = "/Admin/AdminCustomers?Active="+active;
+                });
+            })
+        </script>
+}

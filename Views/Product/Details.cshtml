@@ -1,0 +1,253 @@
+﻿@model ShoeShop.Models.Product
+
+@{
+    List<Product> lsproduct = ViewBag.SPlienquan;
+    ViewData["Title"] = $"{Model.ProductName}";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+}
+<div
+  class="hero-wrap hero-bread"
+  style="background-image: url('../homeassets/images/bg_1.jpg')"
+>
+  <div class="container">
+    <div
+      class="row no-gutters slider-text align-items-center justify-content-center"
+    >
+      <div class="col-md-9 ftco-animate text-center">
+        <p class="breadcrumbs">
+          <span class="mr-2"><a href="index.html">Sản phẩm</a></span>
+          <span>sạch</span>
+        </p>
+        <h1 class="mb-0 bread">Sản phẩm</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="ftco-section">
+  <div class="container">
+    <h7>
+        <a href="/">Trang chủ</a> / <a href="/san-pham">Sản phẩm</a> / <a href="/san-pham/@Model.Alias-@Model.ProductId">@Model.ProductName</a>
+    </h7>
+    <div class="row">
+      <div class="col-lg-6 mb-5 ftco-animate">
+        <a href="/images/products/@Model.Thumb" class="image-popup"
+          ><img
+            src="/images/products/@Model.Thumb"
+            class="img-fluid"
+            alt="Colorlib Template"
+        /></a>
+      </div>
+      <div class="col-lg-6 product-details pl-md-5 ftco-animate">
+        <h3>@Model.ProductName</h3>
+        <div class="rating d-flex">
+          <p class="text-left mr-4">
+            <a href="#" class="mr-2">5.0</a>
+            <a href="#"><span class="ion-ios-star"></span></a>
+            <a href="#"><span class="ion-ios-star "></span></a>
+            <a href="#"><span class="ion-ios-star "></span></a>
+            <a href="#"><span class="ion-ios-star "></span></a>
+            <a href="#"><span class="ion-ios-star "></span></a>
+          </p>
+        </div>
+        <p class="price"><span>@Model.Price.ToString("#,##0")đ</span></p>
+        <span style="color:red;">Đơn vị: kg</span>
+ 
+        <div class="row mt-4">
+          <div class="w-100"></div>
+          <div class="input-group col-md-6 d-flex mb-3">
+            <span class="input-group-btn mr-2">
+              <button
+                type="button"
+                class="quantity-left-minus btn"
+                data-type="minus"
+                data-field=""
+              >
+                <i class="ion-ios-remove"></i>
+              </button>
+            </span>
+            <input
+              type="text"
+              id="quantity"
+              name="quantity"
+              class="form-control input-number"
+              value="1"
+              min="1"
+              max="100"
+            />
+            <span class="input-group-btn ml-2">
+              <button
+                type="button"
+                class="quantity-right-plus btn"
+                data-type="plus"
+                data-field=""
+              >
+                <i class="ion-ios-add"></i>
+              </button>
+            </span>
+          </div>
+          <div class="w-100"></div>
+        </div>
+        <p>
+          <input hidden asp-for="ProductId" />
+          <a style="background-color: orange;border-color: orange!important;" href="javascript:void(0)" class="btn btn-black py-3 px-5" id="add-cart">Thêm</a>
+        </p>
+        <p style="color: green"><i class="fa-solid fa-circle-check"></i> Được kiểm tra hàng trước khi thanh toán</p>
+        <p style="color: green"><i class="fa-solid fa-truck-fast"></i> Giao hàng nhanh chóng</p>
+        <p style="color: green"><i class="fa-solid fa-rotate-right"></i> Đổi trả sản phẩm lỗi hỏng trong 24h</p>
+      </div>
+    </div>
+
+  <div>
+      <h4>THÔNG TIN SẢN PHẨM</h4>
+      <p>
+        @Html.Raw(@Model.Description)
+     </p>
+  </div>
+  </div>
+</section>
+
+<section class="ftco-section">
+  <div class="container">
+    <div class="row justify-content-center mb-3 pb-3">
+      <div class="col-md-12 heading-section text-center ftco-animate">
+        <span class="subheading">Sản phẩm</span>
+        <h2 class="mb-4">Sản phẩm liên quan</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      @if(lsproduct != null && lsproduct.Count() > 0) {
+          foreach(var item in lsproduct) {
+              string url = $"/san-pham/{item.Alias}-{item.ProductId}";
+              <div class="col-md-6 col-lg-3 ftco-animate">
+                <div class="product">
+                  <a href="@url" class="img-prod"
+                    ><img
+                      class="img-fluid"
+                      src="../images/products/@item.Thumb"
+                      alt="Colorlib Template"
+                    />
+                    <div class="overlay"></div>
+                  </a>
+                  <div class="text py-3 pb-4 px-3 text-center">
+                    <h3><a href="@url">@item.ProductName</a></h3>
+                    <div class="d-flex">
+                      <div class="pricing">
+                        <p class="price"><span>@item.Price.ToString("#,##0")đ</span></p>
+                      </div>
+                    </div>
+                    <div class="bottom-area d-flex px-3">
+                      <div class="m-auto d-flex">
+                        <a
+                          href="@url"
+                          class="add-to-cart d-flex justify-content-center align-items-center text-center"
+                        >
+                          <span><i class="ion-ios-menu"></i></span>
+                        </a>
+                        <a
+                          href="javascript:void(0)"
+                          class="buy-now d-flex justify-content-center align-items-center mx-1 addcart"
+                          ma-sp="@item.ProductId"
+                        >
+                          <span><i class="ion-ios-cart"></i></span>
+                        </a>
+                        <a
+                          href="@url"
+                          class="heart d-flex justify-content-center align-items-center"
+                        >
+                          <span><i class="ion-ios-heart"></i></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          }
+      }
+    </div>
+  </div>
+</section>
+@section Scripts {
+    <script>
+      $(document).ready(function () {
+        var quantitiy = 0;
+        $(".quantity-right-plus").click(function (e) {
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          var quantity = parseInt($("#quantity").val());
+
+          // If is not undefined
+
+          $("#quantity").val(quantity + 1);
+
+          // Increment
+        });
+
+        $(".quantity-left-minus").click(function (e) {
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          var quantity = parseInt($("#quantity").val());
+
+          // If is not undefined
+
+          // Increment
+          if (quantity > 0) {
+            $("#quantity").val(quantity - 1);
+          }
+        });
+
+        $(function(){
+            $("#add-cart").click(function(){
+                var productid = $("#ProductId").val();
+                var soluong = $("#quantity").val();
+                $.ajax({
+                    url: '/api/cart/add',
+                    datatype: "json",
+                    type: "POST",
+                    data: {
+                        productID: productid,
+                        amount: soluong
+                    },
+                    success: function(results) {
+                        loadheaderCart();
+                        location.reload();
+                    },
+                    error: function(xhr) {
+                        alert("Error");
+                    }
+                });
+            })
+        });
+        $(function(){
+            $(".addcart").click(function(){
+                var productid = $(this).attr("ma-sp");
+                $.ajax({
+                    url: '/api/cart/add',
+                    datatype: "json",
+                    type: "POST",
+                    data: {
+                        productID: productid
+                    },
+                    success: function(results) {
+                        loadheaderCart();
+                        location.reload();
+                    },
+                    error: function(xhr) {
+                        alert("Error");
+                    }
+                });
+            })
+        });
+        function loadheaderCart() {
+            $("#cart-number").load("/AjaxContent/NumberCart");
+        }
+      });
+    </script>
+}

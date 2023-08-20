@@ -1,0 +1,114 @@
+﻿@model IEnumerable<ShoeShop.Models.OrderDetail>
+@{
+    Order donhang = ViewBag.DonHang;
+    ViewData["Title"] = "Chi tiết đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- .section -->
+<div
+  class="hero-wrap hero-bread"
+  style="background-image: url('/homeassets/images/bg_1.jpg')"
+>
+  <div class="container">
+    <div
+      class="row no-gutters slider-text align-items-center justify-content-center"
+    >
+      <div class="col-md-9 ftco-animate text-center">
+        <p class="breadcrumbs">
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="ftco-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="row">
+          <div class="col-md-12 d-flex">
+            <div class="cart-detail cart-total p-3 p-md-4">
+              <h1 class="billing-heading mb-4">Thông tin đơn hàng #@donhang.OrderId</h1>
+              <p>Họ tên người nhận: @donhang.Customer.FullName</p>
+              <p>Số điện thoại: @donhang.Customer.Phone</p>
+              <p>Trạng thái đơn hàng: @donhang.Status</p>
+              <p>Ngày đặt hàng: @donhang.OrderDate.ToString("dd/MM/yyyy") - @donhang.OrderDate.ToString("HH:mm")</p>
+              @if(donhang.ShipDate == null) {
+                  <p>Ngày giao hàng: Chưa giao hàng</p>
+              }
+              else {
+                  <p>Ngày giao hàng: @donhang.ShipDate.Value.ToString("dd/MM/yyyy") - @donhang.ShipDate.Value.ToString("HH:mm")</p>
+              }
+              <p>Thành tiền: @donhang.TotalMoney.ToString("#,##0")đ</p>
+              @if(donhang.Note != null) {
+                  <p>Ghi chú: @donhang.Note</p>
+              }
+              
+              <div class="table-responsive">
+                  <table class="table table-striped" style="min-width:200px !important;">
+                      <thead class="thead-dark">
+                          <tr>
+                              <th>Hình ảnh</th>
+                              <th>Sản phẩm</th>
+                              <th>Số lượng</th>
+                              <th>Đơn giá</th>
+                              <th>Thành tiền</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td><image src="/images/products/@item.Product.Thumb" height="100" width="100" /></td>
+                                <td>@item.Product.ProductName</td>
+                                <td>@item.Quantity</td>
+                                <td>@item.Product.Price.ToString("#,##0")đ</td>
+                                <td>@item.Total.ToString("#,##0")đ</td>
+                            </tr>
+                        }   
+                  </tbody>
+                  </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="cart-detail p-3 p-md-4">
+              <h3 class="billing-heading mb-4 font-weight-bold">Phương thức thanh toán</h3>
+              <div class="row">
+                <div class="col-md-2">
+                  @if(donhang.PaymentId == 1) {
+                      <image src="http://vanchuyenhanghcm.com/upload/news/ship-cod-la-gi-4709.jpg" width="120" height="150" />
+                  } else if(donhang.PaymentId == 2) { 
+                    <image src="https://play-lh.googleusercontent.com/dQbjuW6Jrwzavx7UCwvGzA_sleZe3-Km1KISpMLGVf1Be5N6hN6-tdKxE5RDQvOiGRg" width="120" height="150" />
+                  }
+                  else {
+                      <image src="https://play-lh.googleusercontent.com/SD4lUzWCqLq6nqURm8abnazm8sC0h_hkikryHyODrVpI0g3xMjeuaVs379jUCKrd0vk" width="120" height="150" />
+                  }
+                  
+                </div>
+                <div class="col-md-7">
+                    @if(donhang.PaymentId == 1) {
+                        <p>Thanh toán khi nhận hàng(COD)</p>
+                    }
+                    else if(donhang.PaymentId == 2) {
+                        <p class="font-weight-bold">Chuyển khoản MOMO</p>
+                        <p>Chủ tài khoản: <span class="font-weight-bold">TRẦN LÝ THẮNG</span></p>
+                        <p>Số điện thoại:  <span class="font-weight-bold">098765278</span></p>
+                    }
+                    else {
+                        <p class="font-weight-bold">Chuyển khoản ngân hàng</p>
+                        <p>Ngân hàng: <span class="font-weight-bold">BIDV</span></p>
+                        <p>Chủ tài khoản: <span class="font-weight-bold">TRẦN LÝ THẮNG</span></p>
+                        <p>Số điện thoại:  <span class="font-weight-bold">098765278</span></p>
+                    }
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .col-md-8 -->
+    </div>
+  </div>
+</section>

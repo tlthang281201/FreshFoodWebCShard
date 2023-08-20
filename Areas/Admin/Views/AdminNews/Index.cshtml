@@ -1,0 +1,122 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<ShoeShop.Models.News>
+@{
+    int CurrentPage = ViewBag.CurrentPage;
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="card">
+  <div class="row d-flex">
+      <div style="padding-top: 1.5rem;padding-left: 1.5rem;padding-bottom: 1.5rem" class="col-sm-5">
+          <div class="input-group input-group-merge">
+               <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Tìm kiếm..."
+                          id="keyword"
+                          name="keyword"
+                          aria-describedby="basic-addon-search31"
+                        />
+           </div>
+       </div>
+      <div style="padding-top: 1.5rem;padding-bottom: 1.5rem" class="col-sm-3">
+       <select class="form-select" id = "txtActive">
+             <option disabled selected>Trạng thái</option>
+             <option value="0">Tất cả</option>
+             <option value="1">Hiển thị</option>
+             <option value="2">Đã ẩn</option>
+          </select>
+      </div>
+      <div class="col-sm-2 ms-auto" style="padding-top: 1.5rem;">
+        <button onclick="location.href='@Url.Action("Create")'" class="btn btn-primary">
+            <i class="fa-solid fa-plus"></i>&nbsp;Thêm mới
+         </button>
+      </div>
+  </div>
+  <div class="table-responsive">
+
+     <table class="table" style="table-layout:fixed;">
+      <thead>
+          <tr>
+              <th style="width: 10%;">
+                  Hình ảnh
+              </th>
+              <th  style="width: 25%;">
+                  Tiêu đề
+              </th>
+              <th  style="width: 10%;">
+                  Lượt xem
+              </th>
+               <th style="width: 10%;">Trạng thái</th>
+               <th style="width: 10%;text-align:center;">Hành động</th>
+          </tr>
+      </thead>
+      <tbody class="table-border-bottom-0" id="records_table">
+          @if(Model != null) {
+              @foreach (var item in Model)
+                {
+                      <tr>
+                          <td>
+                            <img src="~/images/news/@item.Thumb" height="100" width="100"/>
+                          </td>
+                          <td>
+                            @item.Title
+                          </td>
+ 
+                              <td>
+                            @item.Views.ToString("#,##0")
+                              </td>
+                          <td>  
+                            @if (item.Published)
+                            {
+                               <span class="badge bg-label-success me-1" style="width: 65px">Hiển thị</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-label-danger me-1" style="width: 65px">Đã ẩn</span>
+                               
+                            }
+                          </td>
+                          <td>
+
+                               <a asp-action="Edit" asp-route-id="@item.PostId" class="btn btn-info">
+                                    <i class="fa-solid fa-pen-to-square text-white" ></i></a>
+                               <a asp-action="Delete"  asp-route-id="@item.PostId" class="btn btn-danger">
+                                    <i class="fa-solid fa-trash  text-white" ></i></a>
+                          </td>
+                      </tr>
+                }
+          }
+          
+      </tbody>
+  </table>
+  </div>
+
+  <div class="row" style="margin-left: 1.5rem">
+  <div class="col">
+    <div class="demo-inline-spacing">
+      <!-- Basic Pagination -->
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <pager class="page-item" list="@Model" asp-area="Admin" asp-controller="AdminNews" asp-action="Index" />
+        </ul>
+      </nav>
+      <!--/ Basic Pagination -->
+    </div>
+  </div>
+</div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function (){
+            jQuery("#txtActive").change(function(){
+                var active = jQuery(this).children(":selected").attr("value");  
+                $('#txtActive option').removeAttr('selected');
+                $("#txtActive > [value=" + active + "]").attr("selected","true");
+
+                window.location.href = "/Admin/AdminNews?Active="+active;
+            });
+        })
+    </script>
+}
