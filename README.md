@@ -1,4 +1,8 @@
 # Fresh Food Website
+Website bán thực phẩm sạch
+-Công nghệ sử dụng: ASP.NET, SQL Server, HTML, CSS, JS, BOOSTRAP.
+Chức năng của người dùng gồm đăng nhập, đăng ký, xem thông tin sản phẩm, xem và bình luận tin tức, thêm vào giỏ hàng, thanh toán giỏ hàng, quản lý thông tin cá nhân, xem lịch sử đơn hàng,..
+-Chức năng của quản trị viên gồm đăng nhập, quản lý khách hàng, quản lý đơn hàng, quản lý tin tức, quản lý sản phẩm, thống kê
 # Khách hàng
 Trang chủ
 ![image](https://github.com/tlthang281201/FreshFoodWebCShard/assets/142721732/55a1c3bf-6c24-48c5-a45f-b4d1b792f468)
